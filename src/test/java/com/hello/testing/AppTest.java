@@ -27,8 +27,8 @@ public class AppTest
 		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
 	   	ChromeOptions options = new ChromeOptions();
 	   	options.addArguments("--start-maximized");
-	    //driver = new ChromeDriver(options);
-		driver = new HtmlUnitDriver();
+	    driver = new ChromeDriver(options);
+	//	driver = new HtmlUnitDriver();
         System.out.println("\n\n\n******************************************");  	   	
 		System.out.println("driver loaded successfully...");
 	}
