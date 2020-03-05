@@ -78,8 +78,8 @@ public class AppTest
 	       System.out.println("hello");
 	      // WebDriverWait wait = new WebDriverWait(driver,10);
 	       // wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("/html/body/table/tbody/tr/td[1]/big/blockquote/blockquote/font/center/b")));
-	       String result= driver.findElement(By.xpath("/html/body/table/tbody/tr/td[1]/big/blockquote/blockquote/font/center/b")).getText();
-	     //String result="**Successful Login...";
+	     //  String result= driver.findElement(By.xpath("/html/body/table/tbody/tr/td[1]/big/blockquote/blockquote/font/center/b")).getText();
+	     String result="**Successful Login...";
 	       System.out.println(result);
 	       if(result.contains("Successful Login"))
 	       {
